@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video sin bordes</title>
+    <style>
+      body {
+        margin: 0; /* Elimina los márgenes predeterminados del body */
+        overflow: hidden; /* Evita la barra de desplazamiento */
+      }
+
+      video {
+        width: 100vw; /* Establece el ancho al 100% del ancho de la ventana del navegador */
+        height: 100vh; /* Establece la altura al 100% de la altura de la ventana del navegador */
+        object-fit: cover; /* Cubre completamente el contenedor manteniendo la relación de aspecto */
+        display: block; /* Elimina los espacios alrededor del video */
+      }
+    </style>
+  </head>
+  <body>
+    <video controls autoplay loop>
+      <source src="./Baile de fornite saturado.mp4" type="video/mp4" />
+      Tu navegador no soporta el elemento de video.
+    </video>
+  </body>
+</html>
